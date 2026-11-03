@@ -1,0 +1,139 @@
+{
+  "default": "golden-hour",
+  "window_days": 7,
+  "themes": {
+    "golden-hour": {
+      "label": "Golden Hour",
+      "color": "E06C34",
+      "event": "Default"
+    },
+    "midnight-party": {
+      "label": "Midnight Party",
+      "color": "F4C04A",
+      "event": "New Year's Eve"
+    },
+    "kings-cake": {
+      "label": "King's Cake",
+      "color": "E8A23A",
+      "event": "Epiphany"
+    },
+    "alpine-ride": {
+      "label": "Alpine Ride",
+      "color": "D8283E",
+      "event": "Ski season"
+    },
+    "sweetheart": {
+      "label": "Sweetheart",
+      "color": "F0405E",
+      "event": "Valentine's Day"
+    },
+    "cherry-blossom": {
+      "label": "Cherry Blossom",
+      "color": "F8A8C8",
+      "event": "Spring"
+    },
+    "easter-bunny": {
+      "label": "Easter Bunny",
+      "color": "F8C858",
+      "event": "Easter"
+    },
+    "music-day": {
+      "label": "Music Day",
+      "color": "FE4A8A",
+      "event": "Music Day"
+    },
+    "surf-sunset": {
+      "label": "Surf Sunset",
+      "color": "2AAAC0",
+      "event": "Summer"
+    },
+    "bastille-night": {
+      "label": "Bastille Night",
+      "color": "2A4AB8",
+      "event": "Bastille Day"
+    },
+    "pink-ribbon": {
+      "label": "Pink Ribbon",
+      "color": "F0609A",
+      "event": "Pink October"
+    },
+    "spooky-moon": {
+      "label": "Spooky Moon",
+      "color": "F47A1E",
+      "event": "Halloween"
+    },
+    "blue-ribbon": {
+      "label": "Blue Ribbon",
+      "color": "3A8EE8",
+      "event": "Blue November"
+    },
+    "festive-lights": {
+      "label": "Festive Lights",
+      "color": "D23A2E",
+      "event": "Christmas"
+    }
+  },
+  "events": [
+    {
+      "theme": "midnight-party",
+      "date": "01-01"
+    },
+    {
+      "theme": "kings-cake",
+      "date": "01-06"
+    },
+    {
+      "theme": "sweetheart",
+      "date": "02-14"
+    },
+    {
+      "theme": "easter-bunny",
+      "easter": 0
+    },
+    {
+      "theme": "music-day",
+      "date": "06-21"
+    },
+    {
+      "theme": "bastille-night",
+      "date": "07-14"
+    },
+    {
+      "theme": "spooky-moon",
+      "date": "10-31"
+    },
+    {
+      "theme": "festive-lights",
+      "date": "12-25"
+    }
+  ],
+  "campaigns": [
+    {
+      "theme": "pink-ribbon",
+      "from": "10-01",
+      "to": "10-31"
+    },
+    {
+      "theme": "blue-ribbon",
+      "from": "11-01",
+      "to": "11-30"
+    }
+  ],
+  "seasons": [
+    {
+      "theme": "alpine-ride",
+      "from": "12-08",
+      "to": "03-15"
+    },
+    {
+      "theme": "cherry-blossom",
+      "from": "03-16",
+      "to": "06-13"
+    },
+    {
+      "theme": "surf-sunset",
+      "from": "06-14",
+      "to": "09-15"
+    }
+  ]
+}
