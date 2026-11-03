@@ -57,7 +57,8 @@ A higher numeric priority takes precedence when events overlap.
 Campaigns and seasons use their exact date ranges, including both boundaries.
 Easter is calculated each year, and winter includes February 29.
 
-The workflow runs daily at 00:17 UTC and after relevant changes on `main`.
+The workflow runs daily at 12:00 in the `Europe/Paris` timezone, automatically
+following daylight saving time, and after relevant changes on `main`.
 The engine uses the date in Paris. The README banner points directly to the
 selected theme's source SVG using a relative path, so it follows the displayed
 branch and cannot remain pinned to an old commit or another theme's active copy.
