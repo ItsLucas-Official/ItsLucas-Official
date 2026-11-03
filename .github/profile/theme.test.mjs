@@ -50,6 +50,23 @@ test('every image changes palette while all README text and layout are preserved
   assert.ok(changed.includes('labelColor=ABC123'));
   assert.ok(changed.includes('Java-ABC123?'));
   assert.ok(changed.includes('theme=light'));
-  assert.ok(!changed.includes('F47A1E'));
-  assert.equal(renderReadme(changed, config.themes.halloween), original);
+  assert.equal(
+    renderReadme(changed, config.themes.halloween),
+    renderReadme(original, config.themes.halloween),
+  );
+});
+
+test('theme transitions work regardless of the theme currently in the README', () => {
+  const readme = readFileSync(join(directory, '../../README.md'), 'utf8');
+  for (const [sourceName, source] of Object.entries(config.themes)) {
+    const original = renderReadme(readme, source);
+    const changed = renderReadme(original, { color: '123ABC', background: 'ABC123', iconTheme: 'light' });
+    assert.equal(renderReadme(changed, source), original, `${sourceName}: restore source palette`);
+    for (const [targetName, target] of Object.entries(config.themes)) {
+      const expected = renderReadme(readme, target);
+      const actual = renderReadme(original, target);
+      assert.equal(actual, expected, `${sourceName} -> ${targetName}`);
+      assert.equal(renderReadme(actual, target), actual, `${targetName}: repeated application`);
+    }
+  }
 });
