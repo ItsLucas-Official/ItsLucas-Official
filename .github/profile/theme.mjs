@@ -45,6 +45,18 @@ export function themeFor(day, config) {
 export function renderReadme(text, info) {
   // Work on image URLs only: profile text, links and layout stay editable in README.md.
   return text.replace(/(<img\b[^>]*\bsrc=")([^"]+)(")/g, (_, before, url, after) => {
+    // Replace legacy URLs, including links pinned to an old commit, with the
+    // selected source asset. Relative paths also follow the displayed branch.
+    const assetPath = url.split(/[?#]/)[0];
+    const isLocal = !/^[a-z][a-z0-9+.-]*:/i.test(url) && !url.startsWith('//');
+    const isProfileUrl = /^https:\/\/(?:github\.com|raw\.githubusercontent\.com)\/ItsLucas-Official\/ItsLucas-Official\//.test(url);
+    if (isLocal || isProfileUrl) {
+      for (const kind of ['banner', 'logo']) {
+        if (info[kind] && new RegExp(`(?:^|/)assets/(?:${kind}s/)?${kind}(?:-[^/]+)?\\.svg$`).test(assetPath)) {
+          url = `./.github/profile/assets/${kind}s/${info[kind]}`;
+        }
+      }
+    }
     if (url.startsWith('https://readme-typing-svg.demolab.com')) {
       url = url.replace(/([?&]color=)[0-9a-f]{6}\b/gi, `$1${info.color}`);
     }

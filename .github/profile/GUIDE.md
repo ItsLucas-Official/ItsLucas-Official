@@ -58,5 +58,8 @@ Campaigns and seasons use their exact date ranges, including both boundaries.
 Easter is calculated each year, and winter includes February 29.
 
 The workflow runs daily at 00:17 UTC and after relevant changes on `main`.
-The engine uses the date in Paris. The README keeps its GitHub links pointing to
-`main`; use that branch to update the public profile.
+The engine uses the date in Paris. The README banner points directly to the
+selected theme's source SVG using a relative path, so it follows the displayed
+branch and cannot remain pinned to an old commit or another theme's active copy.
+The same rule applies to the logo if it is included in the README.
+Use `main` to update the public profile.

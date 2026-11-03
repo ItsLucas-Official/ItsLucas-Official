@@ -70,3 +70,22 @@ test('theme transitions work regardless of the theme currently in the README', (
     }
   }
 });
+
+test('banner and logo URLs follow the selected theme, including old commit links', () => {
+  for (const info of Object.values(config.themes)) {
+    for (const kind of ['banner', 'logo']) {
+      for (const url of [
+        `https://github.com/ItsLucas-Official/ItsLucas-Official/raw/main/.github/profile/assets/${kind}.svg`,
+        `https://raw.githubusercontent.com/ItsLucas-Official/ItsLucas-Official/567306cd6402ccbea3942c564485ce442acfc601/.github/profile/assets/${kind}.svg`,
+        `./assets/${kind}.svg`,
+        `./.github/profile/assets/${kind}s/${kind}-winter.svg?old=1`,
+      ]) {
+        const image = `<img src="${url}" alt="Profile ${kind}"/>`;
+        const expected = `<img src="./.github/profile/assets/${kind}s/${info[kind]}" alt="Profile ${kind}"/>`;
+        assert.equal(renderReadme(image, info), expected);
+      }
+    }
+  }
+  const external = '<img src="https://example.com/assets/banner.svg" alt="External banner"/>';
+  assert.equal(renderReadme(external, config.themes.winter), external);
+});

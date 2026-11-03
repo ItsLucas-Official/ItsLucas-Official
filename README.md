@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/ItsLucas-Official/ItsLucas-Official/raw/main/.github/profile/assets/banner.svg" alt="ItsLucas Banner" width="100%"/>
+  <img src="./.github/profile/assets/banners/banner-halloween.svg" alt="ItsLucas Banner" width="100%"/>
 </p>
 
 <p align="center">
