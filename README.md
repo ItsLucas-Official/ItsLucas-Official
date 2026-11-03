@@ -1,98 +1,111 @@
+
 <p align="center">
-  <img src="./assets/banner.svg" alt="ItsLucas banner" width="100%"/>
+  <img src="https://github.com/ItsLucas-Official/ItsLucas-Official/raw/main/.github/profile/assets/banner.svg" alt="ItsLucas Banner" width="100%"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/ItsLucas-Official">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=800&color=F47A1E&center=true&vCenter=true&width=720&lines=%3E+whoami;ItsLucas+%E2%80%94+developer;Java+%7C+HTML+%7C+CSS+%7C+JavaScript;Linux+%26%26+Windows;while(true)+%7B+learn()%3B+build()%3B+%7D" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=1100&color=F47A1E&center=true&vCenter=true&width=1000&height=55&repeat=true&lines=ItsLucas-Official%40github%3A~%24+whoami;System+%26+Network+Administrator;Cybersecurity+%26+Infrastructure+Specialist;ItsLucas-Official%40github%3A~%24+cat+stacks.json;Development+%7C+Systems+%26+Infrastructure;Cybersecurity+%26+Networking;ItsLucas-Official%40github%3A~%24+tree+projects%2F;Infrastructure+%7C+Cybersecurity;Software+Development+%7C+Open+Source;ItsLucas-Official%40github%3A~%24+echo+%24PHILOSOPHY;Learn.+Build.+Improve." alt="ItsLucas Terminal Animation"/>
   </a>
 </p>
 
+---
+
 <p align="center">
-  <a href="https://github.com/ItsLucas-Official?tab=followers"><img src="https://img.shields.io/github/followers/ItsLucas-Official?style=flat-square&logo=github&logoColor=white&label=followers&labelColor=0D1117&color=F47A1E" alt="Followers"/></a>
-  <a href="https://github.com/ItsLucas-Official?tab=repositories"><img src="https://img.shields.io/github/stars/ItsLucas-Official?style=flat-square&logo=starship&logoColor=white&label=stars&labelColor=0D1117&color=F47A1E" alt="Stars"/></a>
-  <img src="https://komarev.com/ghpvc/?username=ItsLucas-Official&style=flat-square&color=F47A1E&label=profile+views" alt="Profile views"/>
+  <code>ItsLucas-Official@github:~$ gh profile --summary</code>
 </p>
 
-<p align="center"><sub>Current theme: **Spooky Moon** · Halloween</sub></p>
+<p align="center">
+  <a href="https://github.com/ItsLucas-Official?tab=followers">
+    <img src="https://img.shields.io/github/followers/ItsLucas-Official?style=for-the-badge&logo=github&logoColor=white&label=Followers&labelColor=0D1117&color=F47A1E" alt="GitHub Followers"/>
+  </a>&nbsp;
+  <a href="https://github.com/ItsLucas-Official?tab=repositories">
+    <img src="https://img.shields.io/github/stars/ItsLucas-Official?style=for-the-badge&logo=github&logoColor=white&label=Stars&labelColor=0D1117&color=F47A1E" alt="GitHub Stars"/>
+  </a>&nbsp;
+  <a href="https://github.com/ItsLucas-Official/ItsLucas-Official/watchers">
+    <img src="https://img.shields.io/github/watchers/ItsLucas-Official/ItsLucas-Official?style=for-the-badge&logo=github&logoColor=white&label=Watchers&labelColor=0D1117&color=F47A1E" alt="GitHub Watchers"/>
+  </a>
+</p>
 
-<br/>
-
-<table align="center">
-  <tr>
-    <td align="center" valign="middle" width="190">
-      <img src="./assets/logo.svg" width="160" alt="ItsLucas logo"/>
-    </td>
-    <td valign="middle">
-<pre>
-<b>ItsLucas</b>@<b>github</b>
--------------------------
-<b>Role</b>      Developer
-<b>Location</b>  France
-<b>Languages</b> Java, HTML, CSS, JavaScript
-<b>OS</b>        Linux, Windows
-<b>VCS</b>       Git · GitHub
-<b>Status</b>    Building &amp; learning
-<b>Uptime</b>    Every day, one commit at a time
-</pre>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-## `$ cat stack.json`
+---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=F47A1E" alt="Java"/>
-  <img src="https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=F47A1E" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&logo=css3&logoColor=F47A1E" alt="CSS3"/>
+  <code>ItsLucas-Official@github:~$ cat stacks.json</code>
+</p>
+
+<p align="center">
+  <code>[01] Development</code>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=F47A1E" alt="Java"/>&nbsp;
+  <img src="https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=F47A1E" alt="HTML5"/>&nbsp;
+  <img src="https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&logo=css3&logoColor=F47A1E" alt="CSS3"/>&nbsp;
   <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F47A1E" alt="JavaScript"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=F47A1E" alt="Linux"/>
-  <img src="https://img.shields.io/badge/Windows-0D1117?style=for-the-badge&logo=windows11&logoColor=F47A1E" alt="Windows"/>
-  <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F47A1E" alt="Git"/>
+</p>
+
+<p align="center">
+  <code>[02] Systems &amp; Infrastructure</code>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=F47A1E" alt="Linux"/>&nbsp;
+  <img src="https://img.shields.io/badge/Windows-0D1117?style=for-the-badge&logo=windows11&logoColor=F47A1E" alt="Windows"/>&nbsp;
+  <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F47A1E" alt="Git"/>&nbsp;
   <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=F47A1E" alt="GitHub"/>
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,html,css,js,linux,windows,git,github&theme=dark&perline=8" alt="Skill icons"/>
-</p>
-
-## `$ git log --stat`
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ItsLucas-Official&show_icons=true&hide_border=true&bg_color=0D1117&title_color=F47A1E&icon_color=F47A1E&text_color=C9D1D9&rank_icon=github&count_private=true&include_all_commits=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ItsLucas-Official&layout=compact&hide_border=true&bg_color=0D1117&title_color=F47A1E&text_color=C9D1D9&langs_count=6" alt="Top languages"/>
+  <code>[03] Cybersecurity &amp; Networking</code>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ItsLucas-Official&hide_border=true&background=0D1117&ring=F47A1E&fire=F47A1E&currStreakNum=F47A1E&sideLabels=C9D1D9&currStreakLabel=C9D1D9&dates=8B949E&stroke=30363D" alt="Contribution streak"/>
+  <img src="https://img.shields.io/badge/Cybersecurity-0D1117?style=for-the-badge&logo=securityscorecard&logoColor=F47A1E" alt="Cybersecurity"/>&nbsp;
+  <img src="https://img.shields.io/badge/Network%20Security-0D1117?style=for-the-badge&logo=cloudflare&logoColor=F47A1E" alt="Network Security"/>&nbsp;
+  <img src="https://img.shields.io/badge/WireGuard-0D1117?style=for-the-badge&logo=wireguard&logoColor=F47A1E" alt="WireGuard"/>&nbsp;
+  <img src="https://img.shields.io/badge/Virtualization-0D1117?style=for-the-badge&logo=proxmox&logoColor=F47A1E" alt="Virtualization"/>
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ItsLucas-Official&bg_color=0D1117&line=F47A1E&point=F47A1E&area=true&area_color=F47A1E&hide_border=true" alt="Activity graph"/>
+  <img src="https://skillicons.dev/icons?i=java,html,css,js,linux,windows,git,github&theme=dark&perline=8" alt="Technology Stack"/>
 </p>
 
-<details>
-  <summary><b><code>$ ls ./trophies</code></b></summary>
-  <br/>
-  <p align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=ItsLucas-Official&theme=onedark&no-frame=true&no-bg=true&margin-w=8&column=7" alt="Trophies"/>
-  </p>
-</details>
-
-## `$ ./snake --eat contributions`
+---
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ItsLucas-Official/ItsLucas-Official/output/snake-dark.svg"/>
-    <img src="https://raw.githubusercontent.com/ItsLucas-Official/ItsLucas-Official/output/snake.svg" alt="Contribution snake"/>
-  </picture>
+  <code>ItsLucas-Official@github:~$ tree -L 1 ./projects</code>
 </p>
 
 <p align="center">
-  <code>exit 0</code> · <sub>The banner, logo and wave change automatically with the time of year.</sub>
+  <code>No projects available yet.</code>
 </p>
 
-<img src="./assets/wave.svg" width="100%" alt=""/>
+<p align="center">
+  <sub>Building secure infrastructure, exploring technologies and developing useful open-source solutions.</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ItsLucas-Official?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore%20Repositories-0D1117?style=for-the-badge&logo=github&logoColor=F47A1E" alt="Explore Repositories"/>
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <code>ItsLucas-Official@github:~$ printf "%s\n" "$PHILOSOPHY"</code>
+</p>
+
+<p align="center">
+  <b>Learn. Build. Improve.</b>
+</p>
+
+<p align="center">
+  <sub>Always learning. Always building. Always improving.</sub>
+</p>
+
+---
+
+<p align="center">
+  <code>ItsLucas-Official@github:~$ exit 0</code>
+</p>

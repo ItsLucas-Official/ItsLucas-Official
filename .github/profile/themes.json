@@ -1,0 +1,211 @@
+{
+  "settings": {
+    "defaultTheme": "winter",
+    "eventDaysBefore": 6,
+    "eventDaysAfter": 0,
+    "priority": [
+      "events",
+      "campaigns",
+      "seasons"
+    ],
+    "theme": "halloween"
+  },
+  "themes": {
+    "new-year": {
+      "label": "New Year",
+      "color": "F4C04A",
+      "event": "New Year",
+      "logo": "logo-new-year.svg",
+      "banner": "banner-new-year.svg",
+      "background": "0D1117",
+      "iconTheme": "dark"
+    },
+    "epiphany": {
+      "label": "Epiphany",
+      "color": "E8A23A",
+      "event": "Epiphany",
+      "logo": "logo-epiphany.svg",
+      "banner": "banner-epiphany.svg",
+      "background": "0D1117",
+      "iconTheme": "dark"
+    },
+    "valentines-day": {
+      "label": "Valentine's Day",
+      "color": "F0405E",
+      "event": "Valentine's Day",
+      "logo": "logo-valentines-day.svg",
+      "banner": "banner-valentines-day.svg",
+      "background": "0D1117",
+      "iconTheme": "dark"
+    },
+    "spring": {
+      "label": "Spring",
+      "color": "F8A8C8",
+      "event": "Spring",
+      "logo": "logo-spring.svg",
+      "banner": "banner-spring.svg",
+      "background": "0D1117",
+      "iconTheme": "dark"
+    },
+    "easter": {
+      "label": "Easter",
+      "color": "F8C858",
+      "event": "Easter",
+      "logo": "logo-easter.svg",
+      "banner": "banner-easter.svg",
+      "background": "0D1117",
+      "iconTheme": "dark"
+    },
+    "world-music-day": {
+      "label": "World Music Day",
+      "color": "FE4A8A",
+      "event": "World Music Day",
+      "logo": "logo-world-music-day.svg",
+      "banner": "banner-world-music-day.svg",
+      "background": "0D1117",
+      "iconTheme": "dark"
+    },
+    "summer": {
+      "label": "Summer",
+      "color": "2AAAC0",
+      "event": "Summer",
+      "logo": "logo-summer.svg",
+      "banner": "banner-summer.svg",
+      "background": "0D1117",
+      "iconTheme": "dark"
+    },
+    "bastille-day": {
+      "label": "Bastille Day",
+      "color": "2A4AB8",
+      "event": "Bastille Day",
+      "logo": "logo-bastille-day.svg",
+      "banner": "banner-bastille-day.svg",
+      "background": "0D1117",
+      "iconTheme": "dark"
+    },
+    "autumn": {
+      "label": "Autumn",
+      "color": "C87938",
+      "event": "Autumn",
+      "logo": "logo-autumn.svg",
+      "banner": "banner-autumn.svg",
+      "background": "0D1117",
+      "iconTheme": "dark"
+    },
+    "pink-october": {
+      "label": "Pink October",
+      "color": "F0609A",
+      "event": "Pink October",
+      "logo": "logo-pink-october.svg",
+      "banner": "banner-pink-october.svg",
+      "background": "0D1117",
+      "iconTheme": "dark"
+    },
+    "halloween": {
+      "label": "Halloween",
+      "color": "F47A1E",
+      "event": "Halloween",
+      "logo": "logo-halloween.svg",
+      "banner": "banner-halloween.svg",
+      "background": "0D1117",
+      "iconTheme": "dark"
+    },
+    "movember": {
+      "label": "Movember",
+      "color": "3A8EE8",
+      "event": "Movember",
+      "logo": "logo-movember.svg",
+      "banner": "banner-movember.svg",
+      "background": "0D1117",
+      "iconTheme": "dark"
+    },
+    "winter": {
+      "label": "Winter",
+      "color": "8ABBDD",
+      "event": "Winter",
+      "logo": "logo-winter.svg",
+      "banner": "banner-winter.svg",
+      "background": "0D1117",
+      "iconTheme": "dark"
+    },
+    "christmas": {
+      "label": "Christmas",
+      "color": "D23A2E",
+      "event": "Christmas",
+      "logo": "logo-christmas.svg",
+      "banner": "banner-christmas.svg",
+      "background": "0D1117",
+      "iconTheme": "dark"
+    }
+  },
+  "events": [
+    {
+      "theme": "new-year",
+      "date": "01-01",
+      "priority": 20
+    },
+    {
+      "theme": "epiphany",
+      "date": "01-06",
+      "priority": 10
+    },
+    {
+      "theme": "valentines-day",
+      "date": "02-14"
+    },
+    {
+      "theme": "easter",
+      "easter": 0
+    },
+    {
+      "theme": "world-music-day",
+      "date": "06-21"
+    },
+    {
+      "theme": "bastille-day",
+      "date": "07-14"
+    },
+    {
+      "theme": "halloween",
+      "date": "10-31"
+    },
+    {
+      "theme": "christmas",
+      "date": "12-25"
+    }
+  ],
+  "campaigns": [
+    {
+      "theme": "pink-october",
+      "from": "10-01",
+      "to": "10-31"
+    },
+    {
+      "theme": "movember",
+      "from": "11-01",
+      "to": "11-30"
+    }
+  ],
+  "seasons": [
+    {
+      "theme": "winter",
+      "from": "12-01",
+      "to": "02-29"
+    },
+    {
+      "theme": "spring",
+      "from": "03-01",
+      "to": "05-31"
+    },
+    {
+      "theme": "summer",
+      "from": "06-01",
+      "to": "08-31"
+    },
+    {
+      "theme": "autumn",
+      "from": "09-01",
+      "to": "11-30"
+    }
+  ]
+}
